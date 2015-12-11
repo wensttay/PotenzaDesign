@@ -1,0 +1,624 @@
+/* 
+	Projeto Final de LFWEB : REMAKE A WEBSITE;
+	Feito por : WENSTTAY DE SOUSA ALENCAR;
+	Ultima atualização : 16-10-2014;
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	background: white;
+}
+
+.no-scroll{	
+	overflow: hidden;
+}
+
+.auto-overflow{
+	overflow: auto;
+}
+
+hr{
+	color: #295578;
+	margin: 0 auto;
+}
+
+.div-top{
+	background: white;
+	height: 80px;
+	width: 100%;
+	padding: 10px 0;
+	box-shadow: 0 5px 5px 0px rgba(84, 151, 193, 0.75);
+	position: fixed;
+	z-index: 999;
+	font-size: 60px;
+}
+
+.div-top .title{
+	color: #37719F;
+	margin-left: 50px;
+	position: absolute;
+	font-size: 60px;
+}
+.div-top .title b{
+	color: #295578;
+}
+
+.icon-logo{
+	float: left;
+	margin-left: 40px;
+	margin-top: 5px;
+	color: #37719F;
+	cursor: pointer;
+}
+
+.social{
+	height: 60px;
+	margin-top: 5px;
+	margin-right: 25px;
+	float: right;
+	border: none;
+	color: #37719F;
+}
+
+.social span:hover{
+	color: black;
+}
+
+/*
+nav{
+	//margin-left: -160px;
+}
+*/
+
+.menu{
+	margin-top: 102px;
+	list-style: none;
+	float: left;
+	height: 100%;
+	background: white;
+	box-shadow: 5px 0 5px 0px rgba(84, 151, 193,  0.75);
+	position: fixed;
+	border-top: 2px solid rgba(84, 151, 193, 0.75);
+	z-index: 999;
+	//direction: rtl;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+    border: 1px solid white !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(84, 151, 193, 0.75);
+
+
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(84, 151, 193, 1);
+}
+
+.menu li{
+	padding-top: 23px;
+	text-align: center;
+	width: 140px;
+	height: 50px;
+	font-size: 20px;
+	border-bottom: 2px solid rgba(84, 151, 193, 0.75);
+	color: #37719F;
+}
+
+.menu li:hover{
+	background: rgba(84, 151, 193, 0.75);
+	color: white;
+}
+
+.menu a{
+	color: black;
+}
+
+.imaginespace{
+	width: 100%;
+	height: 60px !important;
+	background-color: black;
+	visibility: hidden;
+}
+
+.pag-atual{
+	background: rgba(84, 151, 193, 0.75);
+}
+
+section{
+	position: absolute;
+	height: 865px;
+	margin-top: 100px;
+	width: 100%; 
+}
+
+.section-inicial{
+	background-image: url("../img/inicio1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: center;	
+}
+
+.section-inicial h1{
+	margin-top: 100px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	background: rgba(41, 85, 120, 0.2);
+}
+
+.section-inicial article{
+	width: 100%;
+	position: fixed;
+	height: 500px;
+}
+
+
+/*
+ * PAGINA "SOBRE"
+*/
+
+.section-sobre div{
+	width: 720px;
+	margin: 0 auto;
+}
+
+.section-sobre div article{
+	width: 100%;
+	height: 200px;
+	margin: 30px 0;
+	padding: 15px;
+	float: left;
+}
+
+.section-sobre article img{
+	width: 200px;
+	float: left;
+	margin-right: 70px;	
+}
+
+.section-sobre article h1{
+	margin-top: 30px;
+	font-size: 36px;
+}
+
+.section-sobre article p{
+	font-size: 24px;
+}
+
+/*
+ * PAGINA "PORTIFORIO"
+*/
+
+.section-portiforio div{
+	width: 1160px;
+	margin: 10px auto ;
+	padding-left: 25px;
+}
+
+.section-portiforio div article{
+	width: 360px;
+	height: 240px;
+	margin: 50px 40px 50px 0;
+	float: left;
+	border-radius: 10px;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+
+.section2x3{
+	margin: 40px 0 0 0 !important;
+}
+
+#Atelie-da-Pele{
+	background-image: url("../img/portiforio-sites/Atelie-da-Pele.png");
+}
+#Good-Food{
+	background-image: url("../img/portiforio-sites/Good-Food.png");
+}
+#Orange-side{
+	background-image: url("../img/portiforio-sites/Orange-side.png");
+}
+#Patricia-Rabello{
+	background-image: url("../img/portiforio-sites/Patricia-Rabello.png");
+}
+#Vincente-Entulhos{
+	background-image: url("../img/portiforio-sites/Vincente-Entulhos.png");
+}
+#Vivo{
+	background-image: url("../img/portiforio-sites/Vivo.png");
+}
+
+.section-portiforio div article:hover{
+	opacity: 1;
+	transition: opacity 0.5s;
+}
+.section-portiforio div article p{
+	background: white;
+	padding: 5px;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 210px;
+	color: #37719F;
+	box-shadow: 0 5px 5px 0px rgba(84, 151, 193, 0.75);
+}
+
+/*
+ * PAGINA "PLANOS"
+*/
+
+.section-planos div{
+	width: 1100px;
+	margin: 36px auto;
+}
+
+.planos-titulo{
+	color: #295578;
+	font-size: 38px;
+	margin: 15px 0;
+	text-align: center;
+}
+
+.section-planos article{
+	width: 200px;
+	height: 300px;
+	float: left;
+	text-align: center;
+	padding: 20px;
+	margin: 20px 40px 20px 0;
+}
+
+.planos1x4{
+	margin-right: 0 !important;
+}
+
+.section-planos article img{
+	width: 151px;
+	height: 187px;
+}
+
+.section-planos article div{
+	padding: 10px 0;
+	background: #295578;
+	border-radius: 10px;
+	width: 100%;
+	margin-top: 20px;
+	color: white;
+}
+
+.section-planos article p{
+	font-size: 24px;
+	color: white;
+}
+
+#plano-1{
+	background: #CD7F32;
+}
+#plano-2{
+	background: #C0C0C0;
+}
+#plano-3{
+	background: #FFD700;
+}
+#plano-4{
+	background: #330066;
+}
+
+
+article.forma-pagamento {
+	width: 100%;
+	height: 300px !important;
+	margin: 50px 0;
+	padding: 0;
+}
+
+article.forma-pagamento img{
+	height: 200px;
+	width: 200px;
+}
+
+article.forma-pagamento p{
+	font-size: 30px;
+	color: #295578;
+	margin: 15px auto 0;
+	width: 500px;
+	text-align: center;
+}
+
+
+/*
+ * PAGINA "CONTATO"
+*/
+.div-contato-toggle{
+	position: fixed;
+	width: 100% !important;
+	margin: 0;
+	margin-top: 105px;
+	z-index: 998;
+
+}
+
+div#contato-toggle{
+	background: white;
+	width: 260px;
+	height: 65px;
+	float: right;
+	border-top: 1px solid rgba(84, 151, 193, 0.75);
+	box-shadow: 0 0 5px 1px rgba(84, 151, 193, 0.75);
+	cursor: pointer;
+}
+
+div#contato-toggle p{
+	color: #295578;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+iframe{
+	width:100%;
+	height:100%;
+}
+
+section.section-contato{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+section.section-contato div{
+	width: 100%;
+	margin-top: 175px;
+	position: fixed;
+	
+	position: absolute;
+	height: 0px;
+}
+
+section.section-contato div form{
+	padding: 10px 30px;
+	height: 100%;
+	width: 200px;
+	background: white;
+	float: right;
+	z-index: 1000;
+	box-shadow: 0 0 5px 2px rgba(84, 151, 193, 0.75);
+}
+
+section.section-contato div form label p{
+	width: 100%;
+	height: 16px;
+	font-size: 24px;
+	text-align: center;
+	margin: 10px 0;
+}
+
+section.section-contato div form textarea{
+	width: 100%;
+    height: 200px;
+    max-width: 475px;
+    margin: 10px 0;
+    outline: none;
+    resize: none;
+    padding: 5px;
+}
+
+section.section-contato div form input{
+	width: 100%;
+	height: 24px;
+	padding-left: 5px;
+}
+
+section.section-contato div form input{
+	margin: 10px 4px;
+}
+
+section.section-contato div form p{
+	text-align: center;
+	margin: 20px 0;
+	font-size: 18px;
+	width: 207px;
+}
+
+#submit{
+	height: 50px;
+	width: 207px;
+	padding-left: 0;
+}
+
+.toUp{
+	width: 70px;
+	height: 70px;
+	color: #37719F;
+	opacity: 0.5;
+	z-index: 1001;
+	bottom: 20px;
+	right: 20px;
+	position: fixed;
+	font-size: 70px;
+	cursor: pointer;
+}
+
+.toUp:hover{
+	opacity: 1;
+	transition: opacity 0.5s;
+}
+
+@media screen and (max-width: 1159px){
+
+	/*
+ 	* PAGINA "INICIAL / MENU"
+	*/
+	.div-top a.title{
+		font-size: 48px;
+		margin-top: 8px;
+	}
+	.section-inicial h1{
+		margin-top: 100px;
+		text-align: center;
+		font-size: 42px;
+	}
+
+	/*
+ 	* PAGINA "PORTIFORIO"
+	*/
+	.section-portiforio div{
+		width: 800px;
+	}
+
+	.section3x2{
+		margin-right: 0px !important;
+	}
+
+	.section2x3{
+		margin-right: 40px !important;
+	}
+
+	/*
+ 	* PAGINA "PLANOS"
+	*/
+	.section-planos div {
+		width: 520px;
+	}
+
+	.planos2x2{
+		margin-right: 0px !important;
+	}
+}
+
+@media screen and (max-width: 759px){
+
+	/*
+ 	* PAGINA "PORTIFORIO"
+	*/
+	.section-portiforio div{
+		width: 360px;
+		padding-left: 0px;
+	}
+
+	/*
+ 	* PAGINA "INICIAL / MENU"
+	*/
+	.div-top a.title{
+		font-size: 36px;
+		margin-top: 15px;
+	}
+	.section-inicial h1{
+		font-size: 48px;
+	}
+
+
+	/*
+ 	* PAGINA "SOBRE"
+	*/
+	.section-sobre div{
+		width: 400px;
+	}
+	.section-sobre div article{
+		padding: 0;
+		height: 350px;
+		text-align: center;
+	}
+	.section-sobre article img{
+		float: none;
+		margin: 0;
+		width: 175px;
+	}
+	
+}
+
+@media screen and (max-width: 639px){
+
+	/*
+ 	* PAGINA "INICIAL / MENU"
+	*/
+	.div-top a.title{
+		visibility: hidden;
+	}
+	.section-inicial h1{
+		font-size: 32px;
+	}
+
+	.social{
+		margin-right: 20px !important;
+	}
+
+	/*
+ 	* PAGINA "PLANOS"
+	*/
+	.section-planos div {
+		width: 240px;
+	}
+	.section-planos div article{
+		margin-right: 0 !important;
+	}
+	article.forma-pagamento p{
+		font-size: 24px;
+		width: 240px;
+	}
+	article.forma-pagamento img{
+		height: 150px;
+		width: 150px;
+	}
+	.planos-titulo{
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width: 449px){
+
+	/*
+ 	* PAGINA "SOBRE"
+	*/
+	.section-sobre div{
+		width: 300px;
+	}
+	.section-sobre article h1{
+		font-size: 24px;
+	}
+
+	.section-sobre article p{
+		font-size: 18px;
+	}
+	.section-sobre article img{
+		float: none;
+		margin: 0;
+		width: 150px;
+	}
+
+	/*
+ 	* PAGINA "PORTIFORIO"
+	*/
+	.section-portiforio div{
+		width: 100%;
+	}
+	.section-portiforio div article{
+		width: 100%;
+		border-radius: 0;
+		height: 240px;
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-height: 759px){
+	iframe{
+		height:1080px;
+	}
+}
