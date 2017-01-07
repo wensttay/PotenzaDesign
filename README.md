@@ -7,3 +7,9 @@ http://www.criacaodesitesbaratos.com.br/
 - CSS3
 - JAVASCRIPT
 - JQUERY
+
+# Before
+![alt tag](https://github.com/wensttay/PotenzaDesign/blob/master/before.png)
+
+# After
+![alt tag](https://github.com/wensttay/PotenzaDesign/blob/master/after.png)
