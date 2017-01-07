@@ -8,8 +8,8 @@ http://www.criacaodesitesbaratos.com.br/
 - JAVASCRIPT
 - JQUERY
 
-# Before
+# Antes
 ![alt tag](https://github.com/wensttay/PotenzaDesign/blob/master/before.png)
 
-# After
+# Depois
 ![alt tag](https://github.com/wensttay/PotenzaDesign/blob/master/after.png)
